@@ -1,0 +1,488 @@
+
+/* <!-- William K Bryan Coded this website-->
+/* <!-- William K Bryan Coded this website-->
+/* <!-- William K Bryan Coded this website-->
+
+
+
+
+
+<!-- Font-Families
+<h2>                              font-family: 'Montserrat', sans-serif;
+<p>                                font-family: 'Quattrocento Sans', sans-serif;
+<h3/captions>             font-family: 'Livvic', sans-serif;
+
+ --> */
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&family=Montserrat:wght@400;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.backing {
+    background-color: #000000;
+    padding: 1%;
+}
+
+.special{
+    color: #cf2e2e;
+    font-weight: bold;
+    font-size:larger  ; 
+}
+.special:hover{
+    color: #902020;
+    font-weight: bold;
+    font-size:larger  ; 
+}
+body {   
+    font-family: 'Quattrocento Sans', sans-serif;
+    background-color: #FFFfff}
+.extra-padding {
+    padding-top: 80px;
+}
+
+.top-bg {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 136px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+p{
+    text-align: center;
+}
+.paragraph-padding {
+    padding-top: 56px;
+}
+i{
+    font-size: 32px;
+}
+.project-page p{
+    text-align: left;
+}
+.text-center-override {
+    text-align: center !important;
+}
+h1 {
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0 0 32px;
+}
+.title-padding {
+    align-items:center;
+    padding: 32px;
+}
+.btn {
+    font-family: 'Livvic', sans-serif;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn:hover {
+    background-color: #757575;
+    border-color: #757575;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.photo, iframe {
+    border: 25px solid #000000;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+    background-color: #000000;
+}
+
+.white-background{
+    background-color: #ffffff;
+}
+
+.carousel.slide {
+    box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+}
+
+.footer {
+    background-color: #000000;
+}
+
+i{
+color: #FFF3E0;
+padding: 8px;
+background-color: #000000;
+}
+
+i:hover {
+    color: #757575
+    ;
+}
+
+a {
+    color: #0300a3;
+    font-weight: 700;
+  }
+
+  .portfolio-page {
+      background-image: url("brickwall.png");
+  }
+  .portfolio-page .btn {
+      background-color: #757575;
+      border: none
+  }
+  .portfolio-page .btn:hover {
+    background-color: #4e4e4e;
+    border-color: #000000;
+}
+.projects-overview-page .btn {
+    background-color: #757575;
+    border: none
+}
+.projects-overview-page .btn:hover {
+  background-color: #757575;
+  border-color: #000000;}
+  
+  .about-me-page {
+    background-image: url("brickwall.png");
+}
+.contact-page {
+    background-image: url("brickwall.png");
+}
+.projects-overview-page {
+    background-image: url("brickwall.png");
+}
+  
+.delta-photo-1 .row {
+background-color: rgba(255,255,255,.9);
+padding: 24px;
+border: 10px solid #98012d;
+box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+
+.delta-photo-2 .row {
+background-color: rgba(255,255,255,.9);
+padding: 24px;
+border: 10px solid #98012d;
+box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+.delta-photo-3 .row {
+background-color: rgba(255,255,255,.9);
+padding: 24px;
+border: 10px solid #98012d;
+box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+.delta-photo-4 .row {
+background-color: rgba(255,255,255,.9);
+padding: 24px;
+border: 10px solid #98012d;
+box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+.delta-photo-5 .row {
+background-color: rgba(255,255,255,.9);
+padding: 24px;
+border: 10px solid #98012d;
+box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+.delta-photo-6 .row {
+background-color: rgba(255,255,255,.9);
+padding: 24px;
+border: 10px solid #98012d;
+box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+
+.delta-photo-6 .no-border {
+    border: 0px;
+    padding-top: 32px;
+}
+
+.delta-photo-1 {
+    background-image: url(ticket-large.png);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.delta-photo-2 {
+background-image: url(departures-large.png);
+background-repeat: none;
+background-size: cover;
+}
+
+.delta-photo-3 {
+background-image: url(beach-large.png);
+background-repeat: none;
+background-size: cover;
+}
+
+.delta-photo-4 {
+background-image: url(polaroids-large.png);
+background-repeat: none;
+background-size: cover;
+}
+
+.delta-photo-5 {
+background-image: url(tokyo-large.png);
+background-repeat: none;
+background-size: cover;
+}
+
+.delta-photo-6 {
+background-image: url(lighthouse-large.png);
+background-repeat: none;
+background-size: cover;
+}
+
+.delta-project .btn {
+    background-color: #003366;
+    border-color: #003366;
+}
+.delta-project .btn:hover {
+    background-color: #C01933;
+    border-color: #C01933;
+}
+.delta-project i {
+        color: #FFFfff;
+        padding: 8px;
+        background-color: #003366;
+        }
+        
+.delta-project i:hover {
+            color: #C01933;
+        }
+
+.delta-project .footer{
+    background-color: #003366;
+}
+.delta-project .photo, iframe {
+    border: 25px solid #002A50;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+    background-color: #002A50;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .spotify-photo-1 .row {
+    background-color: rgba(255,255,255,.9);
+    padding: 24px;
+    border: 10px solid #191414;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+    }
+    
+    .spotify-photo-2 .row {
+    background-color: rgba(255,255,255,.9);
+    padding: 24px;
+    border: 10px solid #191414;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+    }
+    .spotify-photo-3 .row {
+    background-color: rgba(255,255,255,.9);
+    padding: 24px;
+    border: 10px solid #191414;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+    }
+    .spotify-photo-4 .container {
+    background-color: rgba(255,255,255,.9);
+    padding: 24px;
+    border: 10px solid #191414;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+    }
+    .spotify-photo-5 .row {
+    background-color: rgba(255,255,255,.9);
+    padding: 24px;
+    border: 10px solid #191414;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+    }
+    
+  
+    .spotify-photo-1 {
+        background-image: url(crowd-large.png);
+        background-repeat: none;
+        background-size: cover;
+    }
+    
+    .spotify-photo-2 {
+    background-image: url(records-large.png);
+    background-repeat: none;
+    background-size: cover;
+    }
+    
+    .spotify-photo-3 {
+    background-image: url(record-player-large.png);
+    background-repeat: none;
+    background-size: cover;
+    }
+    
+    .spotify-photo-4 {
+    background-image: url(dials-large.png);
+    background-repeat: none;
+    background-size: cover;
+    }
+    
+    .spotify-photo-5 {
+    background-image: url(guitar-large.png);
+    background-repeat: none;
+    background-size: cover;
+    }
+    
+     
+    .spotify-project .btn {
+        background-color: #191414;
+        border-color: #191414;
+    }
+    .spotify-project .btn:hover {
+        background-color: #1BD954;
+        border-color: #1BD954;
+     }
+    .spotify-project i {
+            color: #FFFfff;
+            padding: 8px;
+            background-color: #191414;
+            }
+            
+    .spotify-project i:hover {
+                color: #1BD954;
+            }
+        .spotify-project .photo {
+            border: 25px solid #191414;
+            box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+            background-color: #191414;
+        }
+        .spotify-project .footer{
+            background-color: #191414;
+        }
+    .hollerbachs-photo-1 .row {
+        background-color: rgba(255,255,255,.9);
+        padding: 24px;
+        border: 10px solid #191414;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+        }
+        
+        .hollerbachs-photo-2 .container {
+        background-color: rgba(255,255,255,.9);
+        padding: 24px;
+        border: 10px solid #191414;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+        }
+        .hollerbachs-photo-3 .container {
+        background-color: rgba(255,255,255,.9);
+        padding: 24px;
+        border: 10px solid #191414;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+        }
+        .hollerbachs-photo-4 .container {
+        background-color: rgba(255,255,255,.9);
+        padding: 24px;
+        border: 10px solid #191414;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+        }
+        .hollerbachs-photo-5 .row {
+        background-color: rgba(255,255,255,.9);
+        padding: 24px;
+        border: 10px solid #191414;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+        }
+        .hollerbachs-photo-6 .container {
+            background-color: rgba(255,255,255,.9);
+            padding: 24px;
+            border: 10px solid #191414;
+            box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+            }
+        
+      
+        .hollerbachs-photo-1 {
+            background-image: url(horns-large.png);
+            background-repeat: none;
+            background-size: cover;
+        }
+        
+        .hollerbachs-photo-2 {
+        background-image: url(stagecoach-large.png);
+        background-repeat: none;
+        background-size: cover;
+        }
+        
+        .hollerbachs-photo-3 {
+        background-image: url(kegs-large.png);
+        background-repeat: none;
+        background-size: cover;
+        }
+        
+        .hollerbachs-photo-4 {
+        background-image: url(band-large.png);
+        background-repeat: none;
+        background-size: cover;
+        }
+        
+        .hollerbachs-photo-5 {
+        background-image: url(hall.png);
+        background-repeat: none;
+        background-size: cover;
+        }
+        .hollerbachs-photo-6 {
+            background-image: url(swing-large.png);
+            background-repeat: none;
+            background-size: cover;
+            }
+        
+        .hollerbachs-project .footer{
+            background-color: #191414;
+        }
+        .hollerbachs-project .btn {
+            background-color: #191414;
+            border-color: #191414;
+        }
+        .hollerbachs-project .btn:hover {
+            background-color: #FFCE00;
+            border-color: #FFCE00;
+         }
+        .hollerbachs-project i {
+                color: #FFFfff;
+                padding: 8px;
+                background-color: #191414;
+                }
+                
+        .hollerbachs-project i:hover {
+                    color: #DD0000;
+                }
+        
+        .spotify-project .footer{
+            background-color: #000000;
+        }
+.row.no-border {
+    border: none ;
+    box-shadow: none ;
+}
+.carousel-caption {
+    right: 25%;
+    left: 25%;
+}
+
+
+@media (max-width:766.99px) {
+    .no-mobile {
+        display: none;
+    }
+    .mobile-heading {
+        padding-bottom: 0;
+    }
+    .mobile-p-padding {
+        padding-top: 56px;
+    }
+}
+
+@media (min-width: 576px) {
+.modal-dialog {
+max-width: 100%;
+margin: 1.75rem auto;}
+}
